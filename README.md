@@ -34,5 +34,5 @@ pip install alignn
 The JARVIS, Materials Project and OQMD dataset snapshots considered in this study and their description can be found on [Zenodo](https://zenodo.org/record/8200972).
 
 ## Demo
-Under construction.
-
+***Under construction.***
+The bash files `get_featurized_data.bash` and `run_al.bash` are provided to reproduce the QBC active learning results for the JARVIS22 dataset.
