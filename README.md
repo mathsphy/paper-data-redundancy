@@ -1,12 +1,13 @@
 # paper-data-redundancy
 ---
-Codes and data for the paper ["On the redundancy in large material datasets: efficient and robust learning with less data"](https://arxiv.org/abs/2304.13076) by 
+Codes and data for the paper ["On the redundancy in large material datasets"](https://arxiv.org/abs/2304.13076) by 
 Kangming Li, 
 Daniel Persaud, 
 Kamal Choudhary, 
 Brian DeCost, 
 Michael Greenwood, 
-Jason Hattrick-Simpers.
+Jason Hattrick-Simpers. The abstract of the paper is as follows:
+> Extensive efforts to gather materials data have largely overlooked potential data redundancy. In this study, we present evidence of a significant degree of redundancy across multiple large datasets for various material properties, by revealing that up to 95 % of data can be safely removed from machine learning training with little impact on in-distribution prediction performance. The redundant data is related to over-represented material types and does not mitigate the severe performance degradation on out-of-distribution samples. In addition, we show that uncertainty-based active learning algorithms can construct much smaller but equally informative datasets. We discuss the effectiveness of informative data in improving prediction performance and robustness and provide insights into efficient data acquisition and machine learning training. This work challenges the "bigger is better" mentality and calls for attention to the information richness of materials data rather than a narrow emphasis on data volume.
 
 ## Dependencies
 Please follow `setup_env.bash` to setup the python environment.
